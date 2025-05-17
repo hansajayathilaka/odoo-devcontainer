@@ -22,7 +22,8 @@
         "explorer.autoReveal": true,
         "explorer.expandSingleFolderWorkspaces": true,
         "workbench.startupEditor": "none",
-        "explorer.compactFolders": false
+        "explorer.compactFolders": false,
+        "python.languageServer": "None"
     },
     "launch": {
         "version": "0.2.0",
@@ -60,7 +61,11 @@
             "ms-python.debugpy",
             "ms-python.vscode-pylance",
             "ms-python.black-formatter",
-            "cweijan.vscode-postgresql-client2"
+            "cweijan.vscode-postgresql-client2",
+            "mvintg.odoo-file",
+			"odoo.odoo",
+			"trinhanhngoc.vscode-odoo",
+			"odoo.owl-vision"
         ]
     }
 }

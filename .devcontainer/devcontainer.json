@@ -26,7 +26,12 @@
 				"ms-python.debugpy",
 				"ms-python.vscode-pylance",
 				"ms-python.black-formatter",
-				"cweijan.vscode-postgresql-client2"
+				"cweijan.vscode-postgresql-client2",
+				"mvintg.odoo-file",
+				"odoo.odoo",
+				"trinhanhngoc.vscode-odoo",
+				"odoo.owl-vision"
+				
 			]
 		}
 	},
