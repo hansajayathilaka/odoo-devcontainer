@@ -1,6 +1,8 @@
 services:
   app:
-    image: odoo:18
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       # Mount the source code
       - ..:/workspace:cached
