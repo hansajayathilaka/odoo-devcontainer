@@ -1,4 +1,4 @@
-FROM odoo:18
+FROM odoo:19
 
 USER root
 
@@ -7,7 +7,9 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     python3-dev \
     iputils-ping \
-    git
+    git \
+    wget \
+    curl
 
 # Clean up
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
